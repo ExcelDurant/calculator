@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Calculator</title>
+</head>
+<body>
+    
+    <div class="calculator">
+        <div class="display">0</div>
+        <div class="keys">
+            <div class="col-1">
+                <div class="key-rows">
+                    <button class="cal-btn" onclick="displayNum('+')">+</button>
+                    <button class="cal-btn" onclick="displayNum('-')">-</button>
+                    <button class="cal-btn" onclick="displayNum('*')">x</button>
+                </div>
+                <div class="key-rows">
+                    <button class="cal-btn" onclick="displayNum(7)">7</button>
+                    <button class="cal-btn" onclick="displayNum(8)">8</button>
+                    <button class="cal-btn" onclick="displayNum(9)">9</button>
+                </div>
+                <div class="key-rows">
+                    <button class="cal-btn" onclick="displayNum(4)">4</button>
+                    <button class="cal-btn" onclick="displayNum(5)">5</button>
+                    <button class="cal-btn" onclick="displayNum(6)">6</button>
+                </div>
+                <div class="key-rows">
+                    <button class="cal-btn" onclick="displayNum(1)">1</button>
+                    <button class="cal-btn" onclick="displayNum(2)">2</button>
+                    <button class="cal-btn" onclick="displayNum(3)">3</button>
+                </div>
+                <div class="key-rows">
+                    <button class="cal-btn" onclick="displayNum(0)">0</button>
+                    <button class="cal-btn" onclick="displayDec()">.</button>
+                    <button class="cal-btn" onclick="clrScr()">AC</button>
+                </div>
+            </div>
+            <div class="col-2">
+                <button class="cal-btn" onclick="displayNum('/')">/</button>
+                <button class="cal-btn ent-btn" onclick="answer()">=</button>
+            </div>
+           
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
